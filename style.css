@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Outfit:wght@600&family=Open+Sans:wght@600&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #111;
+  padding: 0;
+  margin: 0;
+  color: white;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.main-info-head {
+  font-family: "Outfit", sans-serif;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  margin: auto;
+  font-size: 6rem;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  height: 100vh;
+  margin-top: 250px;
+}
+
+#info {
+  padding: 10%;
+}
+
+.small-data-container {
+  background-color: rgb(20, 241, 149);
+  color: black;
+  height: 100px;
+  margin-top: -50px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
